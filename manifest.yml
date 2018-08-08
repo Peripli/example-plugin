@@ -1,0 +1,17 @@
+---
+applications:
+- name: sm-extended
+  buildpack: go_buildpack
+  memory: 64M
+  env:
+    GOVERSION: go1.10
+    GOPACKAGENAME: github.com/Peripli/example-plugin
+
+    LOG_FORMAT: json
+    LOG_LEVEL: info
+    STORAGE_URI: <your-storage-uri>
+    API_TOKEN_ISSUER_URL: <your-token-issuer-url>
+    API_CLIENT_ID: cf
+    API_SECURITY_ENCRYPTION_KEY: <api-security-encryption-key>
+    API_SKIP_SSL_VALIDATION: true
+
