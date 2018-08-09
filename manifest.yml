@@ -9,9 +9,9 @@ applications:
 
     LOG_FORMAT: json
     LOG_LEVEL: info
-    STORAGE_URI: <your-storage-uri>
-    API_TOKEN_ISSUER_URL: <your-token-issuer-url>
+    STORAGE_URI: postgres://postgres:postgres@192.168.99.100:5432/postgres?sslmode=disable
+    API_TOKEN_ISSUER_URL: https://uaa.local2.pcfdev.io
     API_CLIENT_ID: cf
-    API_SECURITY_ENCRYPTION_KEY: <api-security-encryption-key>
+    API_SECURITY_ENCRYPTION_KEY: ejHjRNHbS0NaqARSRvnweVV9zcmhQEa8
     API_SKIP_SSL_VALIDATION: true
 
