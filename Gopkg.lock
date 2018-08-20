@@ -28,7 +28,7 @@
     "storage",
     "storage/postgres"
   ]
-  revision = "41ba096e5f8d16fb31fd362d21a9e81052869db8"
+  revision = "237ff967ae471393b22ed3a1fdf0b4f0bf5232af"
 
 [[projects]]
   name = "github.com/cloudfoundry-community/go-cfenv"
@@ -246,9 +246,10 @@
   packages = [
     "ed25519",
     "ed25519/internal/edwards25519",
+    "pbkdf2",
     "ssh/terminal"
   ]
-  revision = "56440b844dfe139a8ac053f4ecac0b20b79058f4"
+  revision = "de0752318171da717af4ce24d0a2e8626afaeb11"
 
 [[projects]]
   branch = "master"
@@ -257,7 +258,7 @@
     "context",
     "context/ctxhttp"
   ]
-  revision = "f4c29de78a2a91c00474a2e689954305c350adf9"
+  revision = "f9ce57c11b242f0f1599cf25c89d8cb02c45295a"
 
 [[projects]]
   branch = "master"
@@ -275,7 +276,7 @@
     "unix",
     "windows"
   ]
-  revision = "34b17bdb430002e9db9ae7ddc8480b9fa05edc22"
+  revision = "904bdc257025c7b3f43c19360ad3ab85783fad78"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -311,8 +312,8 @@
     "cipher",
     "json"
   ]
-  revision = "349dc03548930652802aadc09fb126e2b7cb6d80"
-  version = "v2.1.7"
+  revision = "8254d6c783765f38c8675fae4427a1fe73fbd09d"
+  version = "v2.1.8"
 
 [[projects]]
   name = "gopkg.in/yaml.v2"
@@ -323,6 +324,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "82f595e8a6b5fc5a3fae8abfb23131beef3b0412ed5c4e236cc955ac6e086c7a"
+  inputs-digest = "fdf435185a9d4389c3ac923f1a5b2547184600db8f3eec2d424917bc90b312c1"
   solver-name = "gps-cdcl"
   solver-version = 1
